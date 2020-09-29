@@ -1,11 +1,11 @@
 <?php
 
-$server="localhost:3306";
+$server="localhost";
 $user="root";
 $password="Gourav@123";
 $database="smartdoctor";
 
-$conn=mysqli_connect($server,$user,$password,$database);
+$conn=mysqli_connect($server,$user,$password,$database,"31595");
 
 if(!$conn)
 {
