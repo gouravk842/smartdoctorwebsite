@@ -1,8 +1,8 @@
 <?php
 
-$server="localhost";
+$server="192.168.99.106";
 $user="root";
-$password="Gourav@123";
+$password="root";
 $database="smartdoctor";
 
 $conn=mysqli_connect($server,$user,$password,$database,"31595");
