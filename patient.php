@@ -121,7 +121,7 @@ if(isset($_POST['upload']))
         ?>
         <script>
                 alert("File uploaded.");
-                window.open("https://www.google.com", "_blank");
+                window.open("http://192.168.99.102:8080/view/training/job/uploading-job/build?token=prediction", "_blank");
                 const note = document.getElementById('note');
                 note.innerHTML = "Wait till timer stops ... Please Don't close window.";
 
@@ -148,7 +148,7 @@ if(isset($_POST['upload']))
                 const outputFile = document.getElementById("output_file");
                 document.getElementById("upload").disabled = false;
                 outputFile.innerHTML = "Click here to check result : <a href='output/output.pdf' target='_blank'>Click here </a> "
-                appoint.innerHTML = "For book an appointment : <a href='#service'>Click here</a>";
+                appoint.innerHTML = "For book an appointment : <a href='index.php#service'>Click here</a>";
                 window.open("output/output.pdf","_blank");
             }
 
